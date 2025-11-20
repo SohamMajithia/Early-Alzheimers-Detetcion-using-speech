@@ -72,3 +72,4 @@ which mean when calcukating probability , if the probability is geater than 40% 
 
 ## Video demo 
 in the  video demo , the  probability shown is the likelyhood  of that particular audio belonging to the output class.
+when you open the .mp4 file from the repo , you can download the raw video to you system and view it directly (click on VIEW RAW ).
