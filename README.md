@@ -31,7 +31,7 @@ The notebook:
 
 📌 **Dataset is not uploaded** due to size, but **it can be recreated fully from the notebook.**
     A public dataset was not availbale that could help me detect early alzheimers from speech , so I made my own .
-
+In the entire project the alzheimers-like audios are denoted as AD , and normal speech audio are denoted as (Cognitively normal) CN
 ---
 
 ### 2️⃣ Feature Engineering
@@ -67,5 +67,8 @@ These files are required by the Streamlit app.
 The UI allows users to **upload a speech sample** (`wav` or `mp3`) and receive a predicted cognitive risk score.
 
 #### 🧐 Classification Threshold
-The app uses a **sensitive screening threshold**:
+The app uses a **sensitive screening threshold**: 0.4
+which mean when calcukating probability , if the probability is geater than 40% only then its assigned that particular class .
 
+## Video demo 
+in the  video demo , the  probability shown is the likelyhood  of that particular audio belonging to the output class.
