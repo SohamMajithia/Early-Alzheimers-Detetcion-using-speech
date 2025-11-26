@@ -1,4 +1,4 @@
-# Early-Alzheimers-Detetcion-using-speech
+
 # 🧠 Early Alzheimer's Detection from Speech
 
 A machine learning system that screens for **early Alzheimer's risk using short speech recordings.**  
